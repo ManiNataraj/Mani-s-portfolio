@@ -35,26 +35,10 @@ const Projects = () => {
       githubUrl: "https://github.com/ManiNataraj/BuyHac",
       gradient: "from-blue-500 to-indigo-600",
     },
-    {
-      title: "News Portal (mini project)",
-      date: "Oct 2024",
-      featured: true,
-      overview: "News Portal is a dynamic, full-featured web application developed using Django to provide categorized and real-time news updates to users.",
-      keyFeatures: [
-        "Django Admin CMS for managing articles, categories, and multimedia content effortlessly",
-        "Categorized news across Politics, Sports, Business, Entertainment, and World News",
-        "Real-time news updates ensuring users have access to relevant and up-to-date information",
-        "Responsive design for seamless user experience across devices"
-      ],
-      techStack: ["Python", "Django", "SQLite", "HTML", "CSS", "JavaScript"],
-      image: "https://static3.4media.com/data/articles/xl-how-to-create-a-news-portal-website-1647337622.png",
-      liveUrl: "",
-      githubUrl: "https://github.com/ManiNataraj/ManiNataraj",
-      gradient: "from-blue-500 to-purple-600"
-    },
+    
     {
       title: "Real-Time Weather Application using React",
-      date: "Sep 2024",
+      date: "Sep 2025",
       featured: true,
       overview: "Designed and implemented a dynamic weather application that fetches and displays real-time weather information using the WeatherAPI.",
       keyFeatures: [
@@ -71,7 +55,7 @@ const Projects = () => {
     },
     {
       title: "AI Chatbot using Gemini API",
-      date: "Oct 2024",
+      date: "Oct 2025",
       featured: true,
       overview: "Developed a fully functional mini AI chatbot application using the free Gemini API, integrated within a Django web framework. The chatbot can process user queries, generate intelligent responses, and handle real-time date & time requests with custom logic.",
       keyFeatures: [
@@ -85,6 +69,23 @@ const Projects = () => {
       liveUrl: "",
       githubUrl: "https://github.com/ManiNataraj/ChatAi",
       gradient: "from-orange-500 to-red-600"
+    },
+    {
+      title: "News Portal (mini project)",
+      date: "Oct 2024",
+      featured: true,
+      overview: "News Portal is a dynamic, full-featured web application developed using Django to provide categorized and real-time news updates to users.",
+      keyFeatures: [
+        "Django Admin CMS for managing articles, categories, and multimedia content effortlessly",
+        "Categorized news across Politics, Sports, Business, Entertainment, and World News",
+        "Real-time news updates ensuring users have access to relevant and up-to-date information",
+        "Responsive design for seamless user experience across devices"
+      ],
+      techStack: ["Python", "Django", "SQLite", "HTML", "CSS", "JavaScript"],
+      image: "https://static3.4media.com/data/articles/xl-how-to-create-a-news-portal-website-1647337622.png",
+      liveUrl: "",
+      githubUrl: "https://github.com/ManiNataraj/ManiNataraj",
+      gradient: "from-blue-500 to-purple-600"
     }
   ];
 
