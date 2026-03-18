@@ -24,7 +24,7 @@ const About = () => {
             Hello! I'm <span className="font-semibold text-indigo-600">Manikandan</span>, 
             I'm a full-stack developer. I love building 
             interactive web applications using technologies like 
-            <span className="font-medium"> React.js, Node.js/Django, MySQL/SQLite, and HTML5, CSS3, Bootstrap 5</span>. 
+            <span className="font-medium"> React.js, Node.js/Django, MySQL/SQLite, and HTML5, CSS3, Bootstrap 5, Tailwind CSS</span>. 
             My goal is to create smooth, efficient, and visually appealing user experiences.
           </p>
 
@@ -47,7 +47,9 @@ const About = () => {
                   "HTML",
                   "CSS",
                   "Tailwind CSS",
-                  "Bootstrap"
+                  "Bootstrap",
+                  "Shadcn UI",
+                  "Material UI",
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -65,8 +67,17 @@ const About = () => {
               <div className="flex flex-wrap gap-3">
                 {[
                   "Node.js",
+                  "Express.js",
                   "Django",
-                  "Python"
+                  "Python",
+                  "REST API Development",
+                  "JWT Authentication",
+                  "Google OAuth",
+                  "CRON Jobs"
+
+
+
+
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -84,7 +95,8 @@ const About = () => {
               <div className="flex flex-wrap gap-3">
                 {[
                   "MySQL",
-                  "SQLite"
+                  "SQLite",
+                  "Supabase (PostgreSQL)"
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -103,7 +115,12 @@ const About = () => {
                 {[
                   "Git",
                   "GitHub",
-                  "PowerBI"
+                  "PowerBI",
+                  "Resend (Email API)",
+                  "vercecl",
+                  "Firecrawl"
+
+
                 ].map((skill) => (
                   <span
                     key={skill}
