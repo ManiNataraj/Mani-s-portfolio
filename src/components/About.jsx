@@ -117,7 +117,7 @@ const About = () => {
                   "GitHub",
                   "PowerBI",
                   "Resend (Email API)",
-                  "vercecl",
+                  "vercel",
                   "Firecrawl"
 
 
